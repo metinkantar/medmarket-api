@@ -41,7 +41,7 @@ exports.login = async (req, res) => {
        expiresIn: process.env.JWT_EXPIRE,
      }); */
 
-    res.status(200).json({ ...user._doc, token });
+    res.status(200).json({ _id: user._doc._id, isAdmin: user._doc.isAdmin, token });
 
     //sendToken(user, 200, res);
   } catch (error) {
