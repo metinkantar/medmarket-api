@@ -1,0 +1,39 @@
+{
+  "name": "medmarket-api",
+  "version": "1.0.0",
+  "description": "MedMarket Restful Api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --es-module-specifier-resolution=node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metinkantar"
+  },
+  "keywords": [
+    "MedMarket",
+    "Online",
+    "Shopping",
+    "Restful",
+    "Api",
+    "Node",
+    "JS",
+    "Express",
+    "JS",
+    "MongoDB",
+    "JWT",
+    "Stripe"
+  ],
+  "author": "@MeKa",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4"
+  }
+}
